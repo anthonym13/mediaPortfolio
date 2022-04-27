@@ -1,3 +1,5 @@
+/* Elements */
+
 body{
   margin: 0;
   text-align: center;
@@ -30,35 +32,42 @@ a{
   position: relative;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  margin: auto;
   color: #FAF5E4;
+  border: none;
 }
 
 td:hover{
   background-color: #125B50;
 }
 
-.pagelinks{
-  position: relative;
+table{
   background-color: #F8B400;
-  height: 100px;
-  margin-bottom: 10px;
-}
-
-.writingcontent{
-  background-color: #FAF5E4;
-  padding: 50px;
-}
-
-.homelink{
-  position: relative;
-  background-color: #F8B400;
-  height: 50px;
+  margin: 10px;
+  border: 1px solid #FAF5E4;
 }
 
 img{
   max-width: 100%;
   height: auto;
+  border: 5px solid #FAF5E4;
+}
+
+iframe{
+  border: 5px solid #125B50;
+}
+
+/* Divs */
+
+.writingcontent{
+  background-color: #FAF5E4;
+  padding: 50px;
+  border: 5px solid #F8B400;
+}
+
+.homelink{
+  position: relative;
+  background-color: #F8B400;
+  padding: 10px;
 }
 
 .profile-picture{
@@ -66,4 +75,8 @@ img{
   position: relative;
   height: 200px;
   width: 200px;
+}
+
+.homeButton{
+  margin: 30px auto 30px auto;
 }
