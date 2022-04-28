@@ -1,10 +1,18 @@
+/*******
+#383838
+#066163
+#CDBE78
+#F2F2F2
+*******/
+
 /* Elements */
 
 body{
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  background-color: #125B50;
+  background-color: #383838
+;
   padding: 50px;
 }
 
@@ -12,11 +20,11 @@ h1{
   margin-top: 0;
   font-size: 562.5%;
   font-family: 'Satisfy', cursive;
-  color: #FF6363;
+  color: #CDBE78;
 }
 
 h2{
-  color: #FF6363;
+  color: #CDBE78;
   font-size: 300%;
   padding: 10px;
   margin: 0;
@@ -32,24 +40,24 @@ a{
   position: relative;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  color: #FAF5E4;
+  color: #F2F2F2;
   border: none;
 }
 
 td:hover{
-  background-color: #125B50;
+  background-color: #CDBE78;
 }
 
 table{
-  background-color: #F8B400;
+  background-color: #066163;
   margin: 10px;
-  border: 1px solid #FAF5E4;
+  border: 1px solid #F2F2F2;
 }
 
 img{
   max-width: 100%;
   height: auto;
-  border: 5px solid #FAF5E4;
+  border: 5px solid #125B50;
 }
 
 iframe{
@@ -59,14 +67,14 @@ iframe{
 /* Divs */
 
 .writingcontent{
-  background-color: #FAF5E4;
+  background-color: #F2F2F2;
   padding: 50px;
-  border: 5px solid #F8B400;
+  border: 5px solid #066163;
 }
 
 .homelink{
   position: relative;
-  background-color: #F8B400;
+  background-color: #066163;
   padding: 10px;
 }
 
